@@ -1,0 +1,9 @@
+.item-container{
+    padding: 0.5rem;
+    background-color: rgb(7, 7, 51);
+    color: white;
+}
+
+.item-container img{
+    max-height: 200px;
+}

@@ -1,0 +1,19 @@
+<div class="card shadow-sm m-2 item-container">
+    
+    <div class="card-header">
+        {{this.item.name}}
+    </div>
+
+    <img class="placeholder-img card-img-top" [src]="this.item.imgUrl" [alt]="'Imagem Produto {{this.item.name}}'">
+
+    <div class="card-body">
+        <p class="card-text">Cetegoria: {{this.item.category}}</p>
+        <p class="card-text">Preço: {{this.item.price | currency:'BRL'}}</p>
+        <p class="card-text">Quantidade: {{this.item.quantity}} unidades</p>
+        <div class="btn-group">
+            <button class="btn btn-sm btn-primary m-1">Comprar</button>
+            <button class="btn btn-sm btn-primary m-1">Detalhes</button>
+        </div>
+    </div>
+
+</div>
